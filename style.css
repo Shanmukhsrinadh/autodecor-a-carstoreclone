@@ -66,6 +66,29 @@
     }
 
 
+#carouselExampleCaptions .carousel-control-prev,
+#carouselExampleCaptions .carousel-control-next {
+    background-color: transparent !important;
+    border: none !important; 
+}
+
+#carouselExampleCaptions .carousel-control-prev-icon,
+#carouselExampleCaptions .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0); 
+    border-radius: 50%; 
+}
+
+#carouselExampleCaptions .carousel-control-prev:hover,
+#carouselExampleCaptions .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#carouselExampleCaptions .carousel-control-prev:focus,
+#carouselExampleCaptions .carousel-control-next:focus {
+    outline: none !important; 
+}
+
+
     .search-filter {
       position: absolute;
       bottom: 20px;
